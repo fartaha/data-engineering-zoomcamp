@@ -1,4 +1,4 @@
 # data-engineering-zoomcamp
-**Review of Datatalks MLOps course:**  
+**Review of Datatalks Data Engineering course:**  
 
 ::**MLOps**:: is putting machine learning in production:
