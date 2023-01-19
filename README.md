@@ -8,7 +8,7 @@
 * It removes all **dependencies** and used for **reproducibility**
 * Docker images can be used in different environments like Google cloud (Kubernetes), Amazon batch, local host, ...
 * Install Docker directly from their website
-```bash
+```python
 docker --version
 docker run hello-world
 docker run -it ubunto bash
@@ -48,15 +48,15 @@ docker run -it ubunto bash
 >> > **ctrl+D** to exit from python prompt
 >> * let say we want to write a Python script in our data pipeline which actually needs **Pandas** library.
 >> ** to do so first get out of the python propmt and then somehow we need to get to bash to make it able to install command. For that, we need to overwrite the entry point (which is basically what exactly is executed when we run this container **Python:3.9**) by:
->> ```bash
+>> ```python
 >> docker run -it --entrypoint=bash python:3.9
 >> ```
 >> now instead of a python prompt we have a bash prompt and now we can install **Pandas**:
->> ```shell
+>> ```python
 >> pip isntall pandas
 >> ```
 >> Now, we are installing **pandas** on this specefic docker container. Type python in bash prompt to get the python prompt:
->> ```shell
+>> ```python
 >> python
 >> ```
 >> to make sure it works and pandas is installed:
@@ -67,10 +67,10 @@ docker run -it ubunto bash
 >> > press two times **ctrl+D** to exit from python prompt and bash prompt
 >> > The problem here is that we again run the docker and run the python, there is no pandas available anymore. 
 >> >> **This is because of the same reason as **rm -rf /****. It actually runs the previous snapshot/state of our docker image before the time we installed pandas on it.
->> ```bash
+>> ```python
 >> docker run -it --entrypoint=bash python:3.9
 >> ```
->> ```shell
+>> ```python
 >> python
 >> ```
 >> ```python
