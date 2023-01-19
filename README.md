@@ -45,3 +45,5 @@ docker run -it ubunto bash
 >> import os
 >> os.env
 >> ```
+>> > ctrl+D to exit from python prompt
+>> * let say we want to write a Python script in our data pipeline which actually needs Pandas library
