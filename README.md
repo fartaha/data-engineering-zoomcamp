@@ -28,5 +28,6 @@ docker run -it ubunto bash
 >> + this command will delete everything in the image but it gives an warning not to doing this stupid thing. If you insist to do it, you can use the following command.
 >> 
 >> **rm -rf /--no-preserve-root**
-> 
-> 
+>
+>> **exit** 
+>> command will bring you out from the container 
