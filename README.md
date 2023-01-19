@@ -8,7 +8,7 @@
 * It removes all **dependencies** and used for **reproducibility**
 * Docker images can be used in different environments like Google cloud (Kubernetes), Amazon batch, local host, ...
 * Install Docker directly from their website
-```python
+```console
 docker --version
 docker run hello-world
 docker run -it ubunto bash
