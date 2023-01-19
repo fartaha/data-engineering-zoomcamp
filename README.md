@@ -17,9 +17,9 @@ docker run -it ubunto bash
 > > it looks for hello-world Docker image from Docker hub and run the image and shows the result 
 > 
 > **docker run -it ubunto bash**
-	> > **run:** we want to run the image called ubunto
-	> > **-it:** we want to do this in interactive mode and **t** means	terminal meaning that we want to type sth
-	>> **ubuntu**: is the name of the image we want to run
-	>> **bash:** is a command we want to execute in this image
-	>> +  everything that comes after the image name is parameter to this container
-	>> + in this example we want to execute **bash** on this image and this way we get this **bash** prompt
+> > **run:** we want to run the image called ubunto
+> > **-it:** we want to do this in interactive mode and **t** means	terminal meaning that we want to type sth
+>> **ubuntu**: is the name of the image we want to run
+>> **bash:** is a command we want to execute in this image
+>> +  everything that comes after the image name is parameter to this container
+>> + in this example we want to execute **bash** on this image and this way we get this **bash** prompt
