@@ -32,3 +32,5 @@ docker run -it ubunto bash
 >> **exit** 
 >> 
 >> command will bring you out from the container 
+>> * now if you run the **ubuntu** docker image you will see it is not affected by your previous stupid thing and you can run **ls** normally and see everything is at their place.
+>> + This is what isolation actually means: if an app does sth stupid, our host machine is not affected.
