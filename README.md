@@ -59,3 +59,8 @@ docker run -it ubunto bash
 >> ```shell
 >> python
 >> ```
+>> >> ```python
+>> >> to make sure it works and pandas is installed:
+>> import pandas
+>> pandas.__version__
+>> ```
