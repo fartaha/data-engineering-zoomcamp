@@ -66,7 +66,7 @@ docker run -it ubunto bash
 >> ```
 >> > press two times **ctrl+D** to exit from python prompt and bash prompt
 >> > The problem here is that we again run the docker and run the python, there is no pandas available anymore. 
->> >> **This is because of the same reason as **rm -rf /****
+>> >> **This is because of the same reason as **rm -rf /****. It actually runs the previous snapshot/state of our docker image before the time we installed pandas on it.
 >> ```bash
 >> docker run -it --entrypoint=bash python:3.9
 >> ```
