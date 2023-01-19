@@ -55,4 +55,7 @@ docker run -it ubunto bash
 >> ```shell
 >> pip isntall pandas
 >> ```
->> Now, we are installing **pandas** on this specefic docker container
+>> Now, we are installing **pandas** on this specefic docker container. Type python in bash prompt to get the python prompt:
+>> ```shell
+>> python
+>> ```
