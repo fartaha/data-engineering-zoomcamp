@@ -45,5 +45,10 @@ docker run -it ubunto bash
 >> import os
 >> os.env
 >> ```
->> > ctrl+D to exit from python prompt
->> * let say we want to write a Python script in our data pipeline which actually needs Pandas library
+>> > **ctrl+D** to exit from python prompt
+>> * let say we want to write a Python script in our data pipeline which actually needs Pandas library.
+>> ** to do so first get out of the python propmt and then somehow we need to get to bash to make it able to install command. For that, we need to overwrite the entry point (which is basically what exactly is executed when we run this container **Python:3.9**) by:
+>> ```bash
+>> docker run -it --entrypoint=bash python:3.9
+>> ```
+>> 
