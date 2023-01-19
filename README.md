@@ -95,3 +95,14 @@ docker run -it ubunto bash
 >> ```console
 >> docker build -t test:pandas .
 >> ```
+>> + Now after installing this image as above we can now run it: and see it has pandas in it.
+>>```console
+>> docker run -it test:pandas
+>> ```
+>>```console
+>> python
+>> ```
+>>```python
+>> import pandas
+>> pandas.__version__
+>> ```
