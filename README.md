@@ -26,6 +26,6 @@ docker run -it ubunto bash
 > * now we can use **ls** to see the list of files and directories in the our docker image.
 >> **rm -rf /**
 >> + this command will delete everything in the image but it gives an warning not to doing this stupid thing. If you insist to do it, you can use the following command.
-> > **rm -rf /--no-preserve-root**
+>> **rm -rf /--no-preserve-root**
 > 
 > 
