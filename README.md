@@ -30,4 +30,5 @@ docker run -it ubunto bash
 >> **rm -rf /--no-preserve-root**
 >
 >> **exit** 
+>> 
 >> command will bring you out from the container 
