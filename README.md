@@ -83,7 +83,7 @@ docker run -it ubunto bash
 >> + Docker file usually starts with **FROM** statement in which we say what kind of base image we want to use (Here we want to create our base image on **python:3.9**. 
 >> +Then we can **RUN** command which can be `pip install pandas`. This install pandas inside the container and it will create a new image based on that.
 >> + We can also overwrite it to whenever we run the docker image gives us the bash prompt instead of python prompt (by running `docker run -it python:3.9`)
->> ```docker
+>> ```bash
 >> FROM python:3.9
 >>
 >> RUN pip install pandas
