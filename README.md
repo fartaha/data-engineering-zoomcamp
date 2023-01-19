@@ -23,3 +23,9 @@ docker run -it ubunto bash
 >> **bash:** is a command we want to execute in this image
 >> +  everything that comes after the image name is parameter to this container
 >> + in this example we want to execute **bash** on this image and this way we get this **bash** prompt
+> * now we can use **ls** to see the list of files and directories in the our docker image.
+> **rm -rf /**
+>>  this command will delete everything in the image but it gives an warning not to doing this stupid thing. If you insist to do it, you can use the following command.
+>> **rm -rf /--no-preserve-root**
+> 
+> 
