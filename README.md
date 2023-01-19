@@ -90,3 +90,5 @@ docker run -it ubunto bash
 >>
 >> ENTRYPOINT [ "bash" ]
 >> ```
+>> + To build this image from docker file we use the following command in the terminal. First of all, it needs attack which could be `-t test`. The image name will be **test**. we can also add a text in front of it as its version like `-t test:pandas`.
+>> + Then we need a dotted plant which says that we want docker to build this image in this directory
