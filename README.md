@@ -64,3 +64,4 @@ docker run -it ubunto bash
 >> import pandas
 >> pandas.__version__
 >> ```
+>> > press two times **ctrl+D** to exit from python prompt and bash prompt
