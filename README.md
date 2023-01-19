@@ -78,3 +78,11 @@ docker run -it ubunto bash
 >> # Pandas is not available
 >> # No module named 'pandas'
 >> ```
+>> + **Now** somehow we need to add pandas to make sure that the pandas library is there we we run our code. To do so we need to go to our docker file we created in vscode and create a new image in which we can specify all the instructions, all the things that we want to run in order to create a new image based on whatever we want.
+>> 
+>> Docker file usually starts with **FROM** statement in which we say what kind of base image we want to use (Here we want to create our base image on **python:3.9**. Then we can **RUN** command which can be `pip install pandas`. This install pandas inside the container and it will create a new image based on that. We can also overwrite it to whenever we run the docker image gives us the bash prompt instead of python prompt (by running **docker run -it python:3.9**)
+>> ```docker
+>> FROM python:3.9
+>>
+>> RUN pip install pandas
+>> ```
