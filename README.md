@@ -38,3 +38,10 @@ docker run -it ubunto bash
 > Now lets try to run Python with the attack on 3.9 version of it with the following command:
 >>
 >> **docker run -it python:3.9**
+>> 
+>> This runs the Python prompt and we can try Python commands and libraries like:
+>> ```python
+>> print("hellow world")
+>> import os
+>> os.env
+>> ```
